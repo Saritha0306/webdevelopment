@@ -1,0 +1,88 @@
+/* global styles */
+body {
+    background-image:url('side-border-made-with-fresh-green-leaves-white-background_23-2147893798.webp') ;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+header {
+    background-color: #1b8d1b;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+main {
+    margin: 2rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+.home {
+    background-image: url('OIP (1).jpg');
+    background-size: cover;
+    background-position: center;
+    height: 1000vh;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"], input[type="email"], textarea {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+input[type="reset"] {
+    background-color: #ccc;
+    margin-left: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* media queries */
+@media only screen and (max-width: 600px) {
+    nav li {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample HTML Page</title>
+    <meta name="description" content="This is a sample HTML page.">
+    <meta name="keywords" content="HTML, web development, coding">
+    <meta name="author" content="SARITHA VERMA">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Welcome to my website</h1>
+        <nav>
+            <ul>
+                <li><a href="Home">Home </a></li>
+                <li><a href="#about me">About Me </a></li>
+                <li><a href="#services"> My Skills </a></li>
+                <li><a href="#contact">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="Home">
+            <div style="background-image: url('OIP (1).jpg');">
+                <!-- content here -->
+                <p>
+                    welcome to home page
+                </p>
+            </div>
+            
+
+            
+        <section id="about me">
+            <h2>About Me</h2>
+            <p>thank you for visiting my Page.
+                I am Saritha Verma,currently pursuing my bachelors in Engineering.
+                I am doing my Engineering in Computer Science and Engineering in HKBK college of Engineering.
+                currently in my 3 rd year and 6th sem.</p>
+                Some of the attributes i would use to define myself is
+            <ul>
+                <li>Responsible</li>
+                <li>Hard Working</li>
+                <li>Confident in whatever I do</li>
+            </ul>
+        </section>
+        <section id="services">
+            <h2>My skills</h2>
+            <p>I am good to work with  </p>
+            <ol>
+                <li>HTML5,CSS,JavaScript</li>
+                <li>PHP</li>
+                <li>Java</li>
+                <li>C,C++</li>
+                <li>Python</li>
+                <li>mySql,Oracle</li>
+                
+            </ol>
+        </section>
+        <section id="contact">
+            <h2>Voice out your opinion </h2>
+            <form action="submit.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br>
+
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 SARITHA VERMA</p>
+    </footer>
+</body>
+</html>
